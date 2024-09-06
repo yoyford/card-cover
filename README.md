@@ -31,8 +31,8 @@ Thanks for checking out this front-end coding challenge.
 
 ### Links
 
-- Solution URL: [click here](https://github.com/yoyford/3-column-preview-card-component-solution)
-- Live Site URL: [click here](https://yoyford.github.io/3-column-preview-card-component-solution/)
+- Solution URL: [click here](https://github.com/yoyford/card-cover)
+- Live Site URL: [click here](https://yoyford.github.io/card-cover/)
 
 ## My process
 
