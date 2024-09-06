@@ -13,19 +13,24 @@
 }
 body{
     background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%)
 }
 .order_card{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+
 }
 .center_card{
     margin: 0px auto;
     max-width: 451px;
     display: flex;
     flex-direction: column;
-
+    background: white;
+    border-radius: 25px;
 }
 .images_radius{
     border-top-right-radius: 25px;
@@ -118,4 +123,42 @@ body{
 }
 .order_change a{
     font-family: "Red Hat Display", sans-serif;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 375px) {
+    body{
+        background-image: url("images/pattern-background-mobile.svg");
+    }
+    .order_card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .center_card{
+        display: flex;
+        flex-direction: column;
+        background: white;
+        border-radius: 25px;
+        width: 351px;
+    }
+    .image_container{
+        border-top-right-radius: 25px;
+        border-top-left-radius: 25px;
+        width: 100%;
+    }
+    .images_radius{
+        width: 350px;
+    }
+    .order_price{
+        padding: 1.5rem;
+    }
+    .price_container{
+        padding-right: 16px;
+
+    }
+    .order_change{
+        padding-right: 8px;
+    }
 }
