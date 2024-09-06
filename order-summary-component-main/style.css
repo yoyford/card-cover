@@ -1,9 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    background-image: url("images/pattern-background-desktop.sv");
+    background-image: url("images/pattern-background-desktop.svg");
 
+}
+.order_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.center_card{
+    margin: 0px auto;
+    max-width: 451px;
+    display: flex;
+    flex-direction: column;
+
+}
+.images_radius{
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.text_container{
+    padding: 2.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    background: white;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.order_h1{
+    font-family: "Red Hat Display", sans-serif;
+    
+}
+.order_essay{
+    width: 80%;
+    text-align: center;
+    font-family: "Red Hat Display", sans-serif;
+}
+.order_price{
+    display: flex;
+    flex-direction: row;
+    font-family: "Red Hat Display", sans-serif;
+    background: #f8f9fe;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
