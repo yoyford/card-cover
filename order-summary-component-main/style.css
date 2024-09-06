@@ -6,7 +6,6 @@
 }
 body{
     background-image: url("images/pattern-background-desktop.svg");
-
 }
 .order_card{
     display: flex;
@@ -43,6 +42,7 @@ body{
     width: 80%;
     text-align: center;
     font-family: "Red Hat Display", sans-serif;
+    opacity: 0.7;
 }
 .order_price{
     display: flex;
@@ -51,6 +51,53 @@ body{
     background: #f8f9fe;
     width: 100%;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 1rem;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+.price_container{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.order_heading{
+    font-size: 16px;
+    font-family: "Red Hat Display", sans-serif;
+}
+.order_heading_price{
+    font-size: 16px;
+    font-family: "Red Hat Display", sans-serif;
+    opacity: 0.7;
+
+}
+.order_plan{
+    gap: 0.2rem;
+    display: flex;
+    flex-direction: column;
+}
+.icon_music{
+    width: 45px;
+    height: 45px;
+}
+.order_button{
+    width: 100%;
+}
+.order_button_info{
+    background: #392be2;
+    width: 100%;
+    border: none;
+    color: white !important;
+    font-family: "Red Hat Display", sans-serif;
+    padding: 1rem;
+    border-radius: 15px;
+    font-weight: bold !important;
+}
+.order_button_info_2{
+    border: none;
+    background: none;
+    font-family: "Red Hat Display", sans-serif;
+}
+.order_cancel{
+    margin-top: 8px;
 }
