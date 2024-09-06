@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+    --Verypaleblue: hsl(225, 100%, 98%);
+    --Desaturatedblue: hsl(224, 23%, 55%);
+    --Darkblue: hsl(223, 47%, 23%);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -36,13 +43,14 @@ body{
 }
 .order_h1{
     font-family: "Red Hat Display", sans-serif;
+    color: var(--Darkblue);
     
 }
 .order_essay{
     width: 80%;
     text-align: center;
     font-family: "Red Hat Display", sans-serif;
-    opacity: 0.7;
+    color: var(--Desaturatedblue);
 }
 .order_price{
     display: flex;
@@ -64,11 +72,14 @@ body{
 .order_heading{
     font-size: 16px;
     font-family: "Red Hat Display", sans-serif;
+    color: var(--Darkblue);
 }
 .order_heading_price{
     font-size: 16px;
     font-family: "Red Hat Display", sans-serif;
     opacity: 0.7;
+    color: var(--Desaturatedblue);
+    font-weight: 500;
 
 }
 .order_plan{
@@ -92,12 +103,19 @@ body{
     padding: 1rem;
     border-radius: 15px;
     font-weight: bold !important;
+    cursor: pointer;
 }
 .order_button_info_2{
     border: none;
     background: none;
     font-family: "Red Hat Display", sans-serif;
+    color: var(--Desaturatedblue);
+    font-weight: bold !important;
+    cursor: pointer;
 }
 .order_cancel{
     margin-top: 8px;
+}
+.order_change a{
+    font-family: "Red Hat Display", sans-serif;
 }
